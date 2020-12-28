@@ -61,3 +61,8 @@ Instruction Data [31:0] from IMEM: (bits [31:15] are not used).
 
 
 <img src='design_SC04.jpg' width = 400>
+
+
+<img src='design_SC05.jpg' width = 850>
+
+
