@@ -27,6 +27,7 @@ CALL, RET –CALL: Save PC+1 into link register, all registers into stack memory
 Instruction Data [31:0] from IMEM: (bits [31:15] are not used).
 \
 \
+<img src='design_SC02.jpg' width = 950>
 
 
 
