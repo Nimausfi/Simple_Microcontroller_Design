@@ -16,4 +16,4 @@ LD, ST –Move data between the register file and the data memory (DMEM).
 \
 **Control flow instructions:** 
 \
-BR (branch)–Read register file (RF) for _'operands'. Based on the outcome of comparing the operand data, redirect program counter (PC=offset), or continue sequential execution (PC=PC+1).
+BR (branch)–Read register file (RF) for operands. Based on the outcome of comparing the operand data, redirect program counter (PC=offset), or continue sequential execution (PC=PC+1).
