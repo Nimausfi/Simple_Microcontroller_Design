@@ -18,9 +18,9 @@ Move data between the register file and the data memory (DMEM).
 \
 BR (branch): read register file (RF) for operands. Based on the outcome of comparing the operand data, redirect program counter (PC=offset), or continue sequential execution (PC=PC+1).
 \
-CALL: Save PC+1 into link register, all registers into stack memory, and set PC=offset 
+CALL: save PC+1 into link register, all registers into stack memory, and set PC=offset 
 \
-RET: Restore registers from stack memory ,and load program counter from the link register.
+RET: restore registers from stack memory ,and load program counter from the link register.
 
 --------------------------------------------------------------------------------------
 **Instruction Encodings:**
