@@ -49,4 +49,12 @@ Instruction Data [31:0] from IMEM: (bits [31:15] are not used).
 + **NOP** does not update any state (register file or DMEM) in the machine.
 
 
+-----------------------------------------------------------------------------------------
 
+**Example for LD (Load) instruction:**
+
+<img src= width = 950>
+
++ Load instruction (func=0001) reads register file location Rs1’s (s1=01 implies R1 register ID) data, and uses it as the address for data memory (DMEM). 
+
++ The data read from DMEM location ([R1]) is written to the register file at location Rd (where d=11 implies R3 register ID)
