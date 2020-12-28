@@ -20,7 +20,7 @@ BR (branch): read register file (RF) for operands. Based on the outcome of compa
 \
 CALL: save PC+1 into link register, all registers into stack memory, and set PC=offset 
 \
-RET: restore registers from stack memory ,and load program counter from the link register.
+RET: restore registers from stack memory, and load program counter from the link register.
 
 --------------------------------------------------------------------------------------
 **Instruction Encodings:**
