@@ -23,4 +23,6 @@ CALL, RET –CALL: Save PC+1 into link register, all registers into stack memory
 --------------------------------------------------------------------------------------
 **Instruction Encodings**
 \
-Instruction Data [31:0] from IMEM: (bits [31:15] are not used).
+\
++ **Instruction Data [31:0] from IMEM:** (bits [31:15] are not used).
+
