@@ -1,7 +1,7 @@
 # Simple Microcontroller Design
 \
 \
-<img src='design_SC.jpg' width = 1000>
+<img src='JPGs/design_SC.jpg' width = 1000>
 
 
 + **Compute instructions: (ADD, MULT, SHL, SHR)** 
@@ -29,7 +29,7 @@ RET: restore registers from stack memory, and load program counter from the link
 Instruction Data [31:0] from IMEM: (bits [31:15] are not used).
 \
 \
-<img src='design_SC02.jpg' width = 950>
+<img src='JPGs/design_SC02.jpg' width = 950>
 
 
 + **LD** takes Rs1 register data as DMEM address, and loads the value from DMEM into Rd register. 
@@ -53,16 +53,16 @@ Instruction Data [31:0] from IMEM: (bits [31:15] are not used).
 
 **Example for LD (Load) instruction:**
 
-<img src='design_SC03.jpg' width = 400>
+<img src='JPGs/design_SC03.jpg' width = 400>
 
 + Load instruction (func=0001) reads register file location Rs1’s (s1=01 implies R1 register ID) data, and uses it as the address for data memory (DMEM). 
 
 + The data read from DMEM location ([R1]) is written to the register file at location Rd (where d=11 implies R3 register ID)
 
 
-<img src='design_SC04.jpg' width = 400>
+<img src='JPGs/design_SC04.jpg' width = 400>
 
 
-<img src='design_SC05.jpg' width = 850>
+<img src='JPGs/design_SC05.jpg' width = 850>
 
 
