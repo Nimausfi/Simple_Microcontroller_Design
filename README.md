@@ -11,7 +11,7 @@ ADD, MULT, SHL, SHR –Read register file (RF) for operand(s), and write result 
 \
 **Memory access instructions:** 
 \
-LD, ST –Move data between the register file and the data memory (DMEM).
+LD, ST –Move data between the register _.file. and the data memory (DMEM).
 \
 \
 **Control flow instructions:** 
