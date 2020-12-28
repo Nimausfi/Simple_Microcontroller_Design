@@ -53,7 +53,7 @@ Instruction Data [31:0] from IMEM: (bits [31:15] are not used).
 
 **Example for LD (Load) instruction:**
 
-<img src= width = 950>
+<img src='design_SC03.jpg' width = 400>
 
 + Load instruction (func=0001) reads register file location Rs1’s (s1=01 implies R1 register ID) data, and uses it as the address for data memory (DMEM). 
 
