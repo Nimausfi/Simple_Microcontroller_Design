@@ -14,11 +14,13 @@ Read register file (RF) for operand(s), and write result to the register file.
 Move data between the register file and the data memory (DMEM).
 
 
-+ **Control flow instructions:** 
++ **Control flow instructions: (BR, CALL, RET)** 
 \
-BR (branch)–Read register file (RF) for operands. Based on the outcome of comparing the operand data, redirect program counter (PC=offset), or continue sequential execution (PC=PC+1).
+BR (branch): read register file (RF) for operands. Based on the outcome of comparing the operand data, redirect program counter (PC=offset), or continue sequential execution (PC=PC+1).
 \
-CALL, RET –CALL: Save PC+1 into link register, all registers into stack memory, and set PC=offset –RET: Restore registers from stack memory ,and load program counter from the link register.
+CALL: Save PC+1 into link register, all registers into stack memory, and set PC=offset 
+\
+RET: Restore registers from stack memory ,and load program counter from the link register.
 
 --------------------------------------------------------------------------------------
 **Instruction Encodings:**
