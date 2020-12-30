@@ -66,4 +66,4 @@ Instruction Data [31:0] from IMEM: (bits [31:15] are not used).
 <img src='jpgs/design_SC05.jpg' width = 850>
 
 
-**Testbench** (pa3_TB.vhd) has been provided to simulate and verify the design.
+**Testbench** `pa3_TB.vhd` has been provided to simulate and verify the design.
